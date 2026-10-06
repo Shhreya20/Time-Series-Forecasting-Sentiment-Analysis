@@ -1,0 +1,4 @@
+timestamp,tickers,start_date,end_date,time_step,n_splits,seed,accuracy,naive_accuracy,improvement_pp,n_samples,top25pct_confidence_acc,top25pct_confidence_naive_acc,note
+2026-10-06T16:31:40,"GOOGL,AAPL,MSFT,AMZN,META",2010-01-01,2026-09-30,5,5,1,0.7185228951255539,0.6645790251107828,5.394387001477108,16925,0.9170604914933838,0.849952741020794,"Pooled 5-ticker LSTM, 16yr history, VIX+BroadPeerGap features, best validated config"
+2026-10-06T16:35:00,"GOOGL,AAPL,MSFT,AMZN,META",2010-01-01,2026-09-30,5,5,7,0.718109305760709,0.6645790251107828,5.353028064992616,16925,0.9149338374291115,0.8570415879017014,"Pooled 5-ticker LSTM, 16yr history, VIX+BroadPeerGap features, best validated config"
+2026-10-06T16:38:07,"GOOGL,AAPL,MSFT,AMZN,META",2010-01-01,2026-09-30,5,5,42,0.7195273264401773,0.6645790251107828,5.494830132939443,16925,0.917296786389414,0.8409735349716446,"Pooled 5-ticker LSTM, 16yr history, VIX+BroadPeerGap features, best validated config"
