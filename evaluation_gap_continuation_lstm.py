@@ -15,7 +15,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from gap_continuation_features import FEATURE_COLUMNS, TARGET_COLUMN, _broad_peer_gap, build_gap_dataset
 from model_gap_continuation_lstm import TIME_STEP, build_gap_continuation_model
 
-LOG_PATH = os.path.join(os.path.dirname(__file__), "experiment_log_gap_continuation.csv")
+LOG_PATH = os.path.join(os.path.dirname(__file__), "logs", "experiment_log_gap_continuation.csv")
 LOG_COLUMNS = [
     "timestamp", "tickers", "start_date", "end_date", "time_step", "n_splits", "seed",
     "accuracy", "naive_accuracy", "improvement_pp", "n_samples",

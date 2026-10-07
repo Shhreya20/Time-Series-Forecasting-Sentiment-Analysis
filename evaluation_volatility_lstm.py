@@ -19,7 +19,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from model_volatility_lstm import LEAN_FEATURES, TIME_STEP, build_pooled_lstm_model
 from volatility_features import TARGET_VOL_COLUMN, build_volatility_dataset
 
-LOG_PATH = os.path.join(os.path.dirname(__file__), "experiment_log_volatility_lstm.csv")
+LOG_PATH = os.path.join(os.path.dirname(__file__), "logs", "experiment_log_volatility_lstm.csv")
 LOG_COLUMNS = [
     "timestamp", "tickers", "start_date", "end_date", "horizon", "time_step",
     "n_splits", "seed", "rmse", "r2", "corr", "pvalue", "n_samples", "note",

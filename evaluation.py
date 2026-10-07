@@ -17,7 +17,7 @@ from sklearn.preprocessing import MinMaxScaler
 from features import FEATURE_COLUMNS, TARGET_COLUMN, add_technical_indicators, create_dataset
 from model import build_model, fit_with_early_stopping
 
-LOG_PATH = os.path.join(os.path.dirname(__file__), "experiment_log.csv")
+LOG_PATH = os.path.join(os.path.dirname(__file__), "logs", "experiment_log.csv")
 LOG_COLUMNS = [
     "timestamp", "ticker", "start_date", "end_date", "epochs_requested", "time_step", "horizon", "n_splits",
     "n_folds_used", "mean_test_rmse", "std_test_rmse", "mean_naive_rmse", "mean_r2",

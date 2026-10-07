@@ -17,7 +17,7 @@ from sklearn.preprocessing import StandardScaler
 from model_volatility import build_volatility_model
 from volatility_features import TARGET_VOL_COLUMN, VOLATILITY_FEATURE_COLUMNS, build_volatility_dataset
 
-LOG_PATH = os.path.join(os.path.dirname(__file__), "experiment_log_volatility.csv")
+LOG_PATH = os.path.join(os.path.dirname(__file__), "logs", "experiment_log_volatility.csv")
 LOG_COLUMNS = [
     "timestamp", "ticker", "start_date", "end_date", "horizon", "n_splits", "n_folds_used",
     "rmse_mean_pred", "rmse_persistence", "rmse_model",

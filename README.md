@@ -45,6 +45,7 @@ stock_app/
 ├── model_gap_continuation_lstm.py     # Validated LSTM (71.9% acc, 91.6% on confident quartile)
 ├── evaluation_gap_continuation_lstm.py # Walk-forward evaluation + confidence analysis
 │
+├── logs/                           # Logged results from every evaluation run
 ├── requirements.txt                # Dependencies for app.py
 ├── requirements-sentiment.txt      # Extra dependencies for sentiment scripts
 ├── scripts/
